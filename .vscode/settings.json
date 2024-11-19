@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "projeto-gamer-dream.sln"
+    "dotnet.defaultSolution": "joguinho-teste.sln"
 }
