@@ -12812,9 +12812,9 @@ GameObject:
   - component: {fileID: 791188121}
   - component: {fileID: 791188122}
   - component: {fileID: 791188126}
-  - component: {fileID: 791188125}
   - component: {fileID: 791188124}
   - component: {fileID: 791188123}
+  - component: {fileID: 791188127}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -12941,20 +12941,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &791188125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791188120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca9a77a76520f04e93dcd3ac3f1931a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locked: 0
-  player: {fileID: 687380108}
 --- !u!61 &791188126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13001,6 +12987,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.514254, y: 2.155776}
   m_EdgeRadius: 0
+--- !u!114 &791188127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791188120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae251387d6de7fb448d1103c83c4e306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locked: 0
+  player: {fileID: 687380108}
+  nomeDaCena: elevador
 --- !u!1 &791424837
 GameObject:
   m_ObjectHideFlags: 0

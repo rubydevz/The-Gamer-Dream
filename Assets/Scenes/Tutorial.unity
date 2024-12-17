@@ -3132,8 +3132,8 @@ GameObject:
   - component: {fileID: 642728170}
   - component: {fileID: 642728168}
   - component: {fileID: 642728167}
-  - component: {fileID: 642728173}
   - component: {fileID: 642728174}
+  - component: {fileID: 642728175}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -3312,20 +3312,6 @@ Transform:
   - {fileID: 1713611292}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &642728173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642728166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d4647fe06fc90428628314160e8311, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locked: 0
-  player: {fileID: 585806632}
 --- !u!114 &642728174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3378,6 +3364,21 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &642728175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642728166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae251387d6de7fb448d1103c83c4e306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locked: 0
+  player: {fileID: 585806632}
+  nomeDaCena: TutorialElevador
 --- !u!1 &660951476
 GameObject:
   m_ObjectHideFlags: 0

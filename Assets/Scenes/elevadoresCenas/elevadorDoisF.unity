@@ -2391,8 +2391,8 @@ GameObject:
   - component: {fileID: 1532617238}
   - component: {fileID: 1532617237}
   - component: {fileID: 1532617235}
-  - component: {fileID: 1532617239}
   - component: {fileID: 1532617240}
+  - component: {fileID: 1532617241}
   m_Layer: 0
   m_Name: porta_elevador
   m_TagString: Untagged
@@ -2516,19 +2516,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1532617239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532617234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00e592acc7e847245aaec623d6ff7aab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1200609398}
 --- !u!114 &1532617240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2584,6 +2571,20 @@ MonoBehaviour:
   - {x: 0.0071133142, y: -0.012664628, z: 0}
   - {x: -0.36299914, y: -0.023119729, z: 0}
   - {x: -0.48971912, y: -0.19004346, z: 0}
+--- !u!114 &1532617241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532617234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c797a80193f346742834731fdf27d736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1200609398}
+  nomeDaProxCena: SegundoAndar
 --- !u!1 &1541166730
 GameObject:
   m_ObjectHideFlags: 0

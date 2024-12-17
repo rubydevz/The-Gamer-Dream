@@ -837,8 +837,8 @@ GameObject:
   - component: {fileID: 396576759}
   - component: {fileID: 396576758}
   - component: {fileID: 396576756}
-  - component: {fileID: 396576760}
   - component: {fileID: 396576761}
+  - component: {fileID: 396576762}
   m_Layer: 0
   m_Name: porta_elevador
   m_TagString: Untagged
@@ -962,19 +962,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &396576760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396576755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b3b6e3a49e885241a77ea0b4755072b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 810590407}
 --- !u!114 &396576761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +1015,20 @@ MonoBehaviour:
   - {x: 0.6170895, y: -0.07920932, z: 0}
   - {x: -0.04936633, y: 0.05754309, z: 0}
   - {x: -0.71867, y: -0.15596399, z: 0}
+--- !u!114 &396576762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396576755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c797a80193f346742834731fdf27d736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 810590407}
+  nomeDaProxCena: Subsolo
 --- !u!1 &428873886
 GameObject:
   m_ObjectHideFlags: 0

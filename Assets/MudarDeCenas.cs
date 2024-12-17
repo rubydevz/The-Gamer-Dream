@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class irPraSubsolo : MonoBehaviour
+public class MudarDeCenas : MonoBehaviour
 {
     [SerializeField] GameObject player;
+    [SerializeField] private string nomeDaProxCena;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,7 +16,7 @@ public class irPraSubsolo : MonoBehaviour
          float distance = Vector2.Distance(player.transform.position, transform.position);
         if(distance < 0.5f)
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(nomeDaProxCena);
         }
     }
 }

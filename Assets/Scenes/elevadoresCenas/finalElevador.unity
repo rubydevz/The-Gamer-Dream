@@ -1689,9 +1689,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1125496553}
   - component: {fileID: 1125496552}
-  - component: {fileID: 1125496551}
   - component: {fileID: 1125496550}
   - component: {fileID: 1125496554}
+  - component: {fileID: 1125496555}
   m_Layer: 0
   m_Name: porta_elevador
   m_TagString: Untagged
@@ -1745,19 +1745,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.381619, y: 0.39846295}
   m_EdgeRadius: 0
---- !u!114 &1125496551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125496549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5de1196e200488449df921f6d61dd08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 31728798}
 --- !u!212 &1125496552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1880,6 +1867,20 @@ MonoBehaviour:
   - {x: 0.83342457, y: -0.5000001, z: 0}
   - {x: 0.56668484, y: -0.06965012, z: 0}
   - {x: -0.55334795, y: -0.042523924, z: 0}
+--- !u!114 &1125496555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125496549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c797a80193f346742834731fdf27d736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 31728798}
+  nomeDaProxCena: 
 --- !u!1 &1138073087
 GameObject:
   m_ObjectHideFlags: 0

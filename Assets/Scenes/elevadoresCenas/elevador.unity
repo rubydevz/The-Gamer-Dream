@@ -1937,9 +1937,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1476919197}
   - component: {fileID: 1476919196}
-  - component: {fileID: 1476919195}
   - component: {fileID: 1476919194}
   - component: {fileID: 1476919198}
+  - component: {fileID: 1476919199}
   m_Layer: 0
   m_Name: porta_elevador
   m_TagString: Untagged
@@ -1993,19 +1993,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.381619, y: 0.39846295}
   m_EdgeRadius: 0
---- !u!114 &1476919195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476919193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5de1196e200488449df921f6d61dd08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1509446257}
 --- !u!212 &1476919196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2131,6 +2118,20 @@ MonoBehaviour:
   - {x: 0.7051646, y: -0.24128644, z: 0}
   - {x: 0.5, y: -0.13428032, z: 0}
   - {x: -0.5164133, y: -0.15097176, z: 0}
+--- !u!114 &1476919199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476919193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c797a80193f346742834731fdf27d736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1509446257}
+  nomeDaProxCena: PrimeiroAndar
 --- !u!1 &1509446257
 GameObject:
   m_ObjectHideFlags: 0
