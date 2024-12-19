@@ -38,6 +38,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/elevadoresCenas/finalElevador.unity
     guid: 6067a4833e7cdc343a1118b61c9748e7
+  - enabled: 1
+    path: Assets/Scenes/CenaFinal.unity
+    guid: c3bebbf96d0c1ae4383d728761e4a16d
+  - enabled: 1
+    path: Assets/Scenes/Agradecimentos.unity
+    guid: 531d219347112db4b89b31ca4a955050
+  - enabled: 0
+    path: Assets/Scenes/Artes.unity
+    guid: 01af43ffd4de61b4cb176a52350b250d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

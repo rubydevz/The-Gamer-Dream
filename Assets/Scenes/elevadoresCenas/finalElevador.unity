@@ -1880,7 +1880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 31728798}
-  nomeDaProxCena: 
+  nomeDaProxCena: CenaFinal
 --- !u!1 &1138073087
 GameObject:
   m_ObjectHideFlags: 0
