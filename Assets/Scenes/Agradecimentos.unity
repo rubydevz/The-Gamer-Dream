@@ -717,7 +717,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 37.84516, y: -0.13713312}
+  m_Offset: {x: 44.068527, y: -0.13713312}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -727,7 +727,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 72.868454, y: 11.477021}
+  m_Size: {x: 85.315186, y: 11.477021}
   m_EdgeRadius: 0
 --- !u!1 &717967782
 GameObject:
@@ -1462,7 +1462,7 @@ Camera:
   far clip plane: 1000
   field of view: 11.421186
   orthographic: 1
-  orthographic size: 3.13
+  orthographic size: 4.34
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1596,7 +1596,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -5.7130527, y: -12.929537}
+  m_Offset: {x: -12.239994, y: -12.929537}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1606,7 +1606,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 16.156143, y: 51.15202}
+  m_Size: {x: 7.3523483, y: 51.15202}
   m_EdgeRadius: 0
 --- !u!1 &1426357511
 GameObject:
@@ -2726,7 +2726,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 21
-    OrthographicSize: 3.13
+    OrthographicSize: 4.34
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
