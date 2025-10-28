@@ -7,7 +7,7 @@ https://www.canva.com/design/DAGZvh4RnBg/l7Sq7Mr1pT1Hrhkx4bfoJA/edit?utm_content
 O projeto esta disponivel para teste na itch.io:
 https://rubyart.itch.io/the-gamer-dream
 
-O projeto foi desenvolvido utilizando:
+##Linguagens e ferramentas utilizadas:
 a linguagem C# e a engine Unity.
 As sprits e animações por meio do LibreSprite.
 
