@@ -8,8 +8,9 @@ O projeto esta disponivel para teste na itch.io:
 https://rubyart.itch.io/the-gamer-dream
 
 ## Linguagens e ferramentas utilizadas:
-a linguagem C# e a engine Unity.
-As sprits e animações por meio do LibreSprite.
+Para o desenvolvimento: linguagem C# e a engine Unity.
+
+Para a criação das sprits e animações: LibreSprite.
 
 Status do projeto:
 Hiatus.
